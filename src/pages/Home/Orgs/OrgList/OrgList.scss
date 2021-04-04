@@ -1,0 +1,94 @@
+@import "../../../../scss-shared/shared";
+@import "../../../../scss-shared/fonts";
+
+.OrgList {
+
+  font-family: $font-alt;
+
+  &__items {
+
+    width: 80%;
+    margin: 2em auto 0 auto;
+    height: 260px;
+    padding: 0 1em;
+    overflow-y: auto;
+
+    &__element {
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 1px solid map_get($colors, underline);
+
+      &__left {
+
+        width: 100%;
+        order: 2;
+
+
+        @include over768 {
+          width: 70%;
+        }
+
+        &__title {
+          width: 100%;
+          font-size: 1.2em;
+          padding: 0.6em 0;
+        }
+
+        &__description {
+          width: 100%;
+          font-size: 0.9em;
+          line-height: 1.1em;
+          font-style: italic;
+          padding-bottom: 0.6em;
+        }
+      }
+
+      &__things {
+
+        width: 100%;
+        padding: 1em;
+
+        @include over768 {
+          width: 30%;
+          order: 3;
+          padding: 0;
+          text-align: right;
+        }
+        order: 3;
+
+        text-align: center;
+
+      }
+    }
+  }
+
+  &__pages {
+
+    display: none;
+
+    @include over400 {
+
+      display: flex;
+      justify-content: center;
+
+    }
+
+    &__button {
+      background: none;
+      font-family: $font-base;
+      border: 1px solid transparent;
+      color: black;
+      margin: 20px 10px;
+      padding: 10px;
+
+      &:hover {
+        @include active
+      }
+
+
+    }
+  }
+}
+

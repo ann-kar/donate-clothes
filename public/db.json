@@ -1,0 +1,125 @@
+{
+  "foundations": [
+    {
+      "title": "Fundacja Dajemy Dzieciom Siłę",
+      "description": "Fundacja działa na rzecz upowszechniania i ochrony praw dziecka.",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "Słońce",
+      "description": "Celem Fundacji jest pomoc we wszechstronnym rozwoju młodego człowieka, w tym kształtowanie postawy twórczości i odpowiedzialności za siebie i innych.",
+      "things": "ubrania, obuwie, zabawki"
+    },
+    {
+      "title": "Fundacja SOS",
+      "description": "Działalność charytatywna, w szczególności pomoc ofiarom katastrof, klęsk żywiołowych, konfliktów zbrojnych i wojen w kraju i za granicą.",
+      "things": "ubrania, art. kosmetyczne"
+    },
+    {
+      "title": "Zdążyć z pomocą",
+      "description": "Profilaktyka uzależnień od alkoholu, nikotyny, narkotyków i wszelkiego rodzaju innych używek oraz przeciwdziałanie uzależnieniom i patologiom społecznym.",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "Fundacja Ocalenie",
+      "description": "Fundacja wspiera migrantów i migrantki w integracji i indywidualnym rozwoju.",
+      "things": "ubrania, książki, zabawki"
+    },
+    {
+      "title": "Schronisko dla bezdomnych",
+      "description": "Fundacja wspiera osoby w kryzysie bezdomności.",
+      "things": "ubrania, art. kosmetyczne"
+    },
+    {
+      "title": "Zielona przystań",
+      "description": "Fundacja Działa na rzecz dialogu międzykulturowego i wzmacniania społeczeństwa obywatelskiego.",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "Skrzydła dla edukacji",
+      "description": "Celem fundacji jest wspieranie rodziców w wychowywaniu, nauce i edukacji dzieci.",
+      "things": "zabawki, pomoce szkolne, książki"
+    }
+  ],
+  "ngos": [
+    {
+      "title": "NGO A",
+      "description": "description A",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "NGO B",
+      "description": "description B",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "NGO C",
+      "description": "description C",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "NGO D",
+      "description": "description D",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "NGO E",
+      "description": "description E",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "NGO F",
+      "description": "description F",
+      "things": "ubrania, zabawki"
+    }
+  ],
+  "collections": [
+    {
+      "title": "Collection A",
+      "description": "description A",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "Collection B",
+      "description": "description B",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "Collection C",
+      "description": "description C",
+      "things": "ubrania, zabawki"
+    },
+    {
+      "title": "Collection D",
+      "description": "description D",
+      "things": "ubrania, zabawki"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@admin.pl",
+      "password": "admin"
+    },
+    {
+      "email": "saeva@o2.pl",
+      "password": "qwerty",
+      "id": 2
+    },
+    {
+      "email": "anna.paulina.karpiuk@gmail.com",
+      "password": "aaaaaaa",
+      "id": 3
+    },
+    {
+      "email": "saeva@o2.pl",
+      "password": "qqqqqq",
+      "id": 4
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "abcabc",
+      "id": 5
+    }
+  ]
+}

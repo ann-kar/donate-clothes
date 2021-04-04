@@ -1,0 +1,60 @@
+@import "../../scss-shared/shared";
+
+.SiteMenu, .UserMenu {
+
+  font-family: $font-base;
+
+  @include over768 {
+    position: initial;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+}
+
+.UserMenu__element, .SiteMenu__element {
+
+  color: map_get($colors, font);
+  border: 1px solid transparent;
+  border-bottom: 1px dotted map_get($colors, font);
+
+  width: 100%;
+  padding: 0.9em;
+
+  font-size: 1.4em;
+  font-weight: 100;
+  text-transform: uppercase;
+
+  @include over768 {
+
+    display: inline-block;
+    width: initial;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: initial;
+    text-transform: initial;
+
+  }
+
+  &:hover {
+    @include active;
+  }
+}
+
+
+.UserMenu__element.login, .SiteMenu__element.login {
+
+  display: inline-block;
+  width: initial;
+  border: 1px solid transparent;
+  font-size: 1.2em;
+  font-weight: initial;
+  text-transform: initial;
+  float: right;
+  height: 48px;
+  min-width: 48px;
+  @include over1008 {
+    font-size: 1em;
+  }
+}

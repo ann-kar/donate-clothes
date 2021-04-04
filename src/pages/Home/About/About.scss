@@ -1,0 +1,50 @@
+@import "../../../scss-shared/shared";
+
+.About {
+  width: 100%;
+  height: 400px;
+  display: flex;
+
+  @include over1008 {
+    height: 500px;
+  }
+
+  &__left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: map-get($colors, background);
+    flex-shrink: 0;
+
+    @include over768 {
+      width: 50%;
+    }
+
+    &__cnt {
+
+      height: 300px;
+      width: 100%;
+      max-width: 400px;
+
+      &__text {
+        font-size: $font-size-big;
+        padding: 30px;
+        text-align: center;
+        overflow: hidden;
+      }
+    }
+  }
+
+  &__right {
+    height: 100%;
+    width: 50%;
+    flex-shrink: 2;
+    background: url("../../../assets/People.jpg");
+    background-position: cover;
+    background-width: 100%;
+    background-repeat: no-repeat;
+  }
+}

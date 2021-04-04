@@ -1,0 +1,45 @@
+@import "../../../scss-shared/shared";
+
+
+.Orgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include over1008 {
+    margin-bottom: 30px;
+  }
+
+  & > * {
+    width: 100%;
+
+  }
+
+  &__types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__button {
+      @include buttons();
+
+      width: 80%;
+      //height: 3em;
+
+      @include over768 {
+        width: 26%;
+      }
+
+      @include over1008 {
+      width: 20%;
+      margin: 0 1em;
+
+    }
+      padding: 20px;
+      text-transform: none;
+      font-size: $font-size-big;
+      font-family: $font-base;
+
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../scss-shared/shared";
+
+.Input {
+
+  &__label {
+    display: block;
+  }
+
+  &__input {
+    width: 100%;
+    margin-top: $font-size;
+    background: transparent;
+    border: none;
+    font-size: $font-size;
+    font-family: $font-base;
+    border-bottom: 1px solid map_get($colors, underline);
+  }
+}

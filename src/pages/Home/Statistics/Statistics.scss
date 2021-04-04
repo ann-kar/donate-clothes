@@ -1,0 +1,17 @@
+@import "../../../scss-shared/shared";
+
+.Statistics {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: map-get($colors, highlight);
+  background: yellow;
+  padding-bottom: 1em;
+
+  @include from600to1008 {
+    flex-wrap: nowrap;
+    padding-bottom: 1.4em;
+  }
+}

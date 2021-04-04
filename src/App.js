@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {HashRouter, Switch, Route} from "react-router-dom";
+
+import "./App.scss";
+import {Home, Login, Register, Logout} from "./pages"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const validateEmail = email => {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    };
+
+    const validateForm = (errors) => {
+        let valid = true;
+        Object.values(errors).forEach(
+            (val) => val.length > 0 && (valid = false)
+        );
+        return valid;
+    };
+
+    return (
+        <div className="app">
+            <HashRouter>
+                <Switch>
+                    <Route
+                        path='/logowanie'
+                        render={(props) => <Login {...props}
+                                                  validateEmail={validateEmail}
+                                                  validateForm={validateForm}/>}
+                    />
+                    <Route
+                        path='/rejestracja'
+                        render={(props) => <Register {...props} validateEmail={validateEmail}
+                                                     validateForm={validateForm}/>}
+                    />
+                    <Route path='/wylogowano' component={Logout}/>
+                    <Route path='/' component={Home}/>
+                </Switch>
+            </HashRouter>
+        </div>
+    );
 }
 
 export default App;

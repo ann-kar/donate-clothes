@@ -1,0 +1,24 @@
+@mixin menu {
+  @media (max-width: 767px) { @content; }
+}
+
+@mixin over400 {
+  @media (min-width: 400px) { @content; }
+}
+
+
+@mixin over540 {
+  @media (min-width: 540px) { @content; }
+}
+
+@mixin from600to1008 {
+  @media (min-width: 600px) and (max-width: 1008px) { @content; }
+}
+
+@mixin over768 {
+  @media (min-width: 768px) { @content; }
+}
+
+@mixin over1008 {
+  @media (min-width: 1008px) { @content; }
+}

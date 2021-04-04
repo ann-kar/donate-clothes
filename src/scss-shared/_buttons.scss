@@ -1,0 +1,15 @@
+@mixin buttons() {
+  padding: 20px;
+  border: 0.75px solid black;
+  font-family: $font-base, sans-serif;
+  font-weight: 300;
+  background: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.button {
+  @include buttons();
+}
+

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/donate-clothes/static/css/main.7eedd8e6.chunk.css",
+    "main.js": "/donate-clothes/static/js/main.e80cb092.chunk.js",
+    "main.js.map": "/donate-clothes/static/js/main.e80cb092.chunk.js.map",
+    "runtime-main.js": "/donate-clothes/static/js/runtime-main.f1f939c6.js",
+    "runtime-main.js.map": "/donate-clothes/static/js/runtime-main.f1f939c6.js.map",
+    "static/js/2.28372798.chunk.js": "/donate-clothes/static/js/2.28372798.chunk.js",
+    "static/js/2.28372798.chunk.js.map": "/donate-clothes/static/js/2.28372798.chunk.js.map",
+    "index.html": "/donate-clothes/index.html",
+    "static/css/main.7eedd8e6.chunk.css.map": "/donate-clothes/static/css/main.7eedd8e6.chunk.css.map",
+    "static/js/2.28372798.chunk.js.LICENSE.txt": "/donate-clothes/static/js/2.28372798.chunk.js.LICENSE.txt",
+    "static/media/Contact.scss": "/donate-clothes/static/media/Background-Contact-Form.655c5442.jpg",
+    "static/media/SectionTitle.scss": "/donate-clothes/static/media/Decoration.51792b9b.svg",
+    "static/media/Header.scss": "/donate-clothes/static/media/Home-Hero-Image.0c4f237f.jpg",
+    "static/media/Icon-1.bd3d092a.svg": "/donate-clothes/static/media/Icon-1.bd3d092a.svg",
+    "static/media/Icon-2.cfac69a1.svg": "/donate-clothes/static/media/Icon-2.cfac69a1.svg",
+    "static/media/Icon-3.564c1731.svg": "/donate-clothes/static/media/Icon-3.564c1731.svg",
+    "static/media/Icon-4.f1b3fb6d.svg": "/donate-clothes/static/media/Icon-4.f1b3fb6d.svg",
+    "static/media/About.scss": "/donate-clothes/static/media/People.2fa041c6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1f939c6.js",
+    "static/js/2.28372798.chunk.js",
+    "static/css/main.7eedd8e6.chunk.css",
+    "static/js/main.e80cb092.chunk.js"
+  ]
+}
